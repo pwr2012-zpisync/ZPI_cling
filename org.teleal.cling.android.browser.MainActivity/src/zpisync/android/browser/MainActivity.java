@@ -15,14 +15,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.teleal.cling.android.browser;
+package zpisync.android.browser;
 
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TabHost;
-import org.teleal.android.util.FixedAndroidHandler;
+
+import zpisync.android.browser.R;
 import org.teleal.common.logging.LoggingUtil;
+
+import zpisync.android.util.FixedAndroidHandler;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -78,7 +81,7 @@ public class MainActivity extends TabActivity {
 
         intent = new Intent().setClass(this, BrowseActivity.class);
         spec = tabHost.newTabSpec("browse")
-                .setIndicator("Przeszukaj sieæ", getResources().getDrawable(R.drawable.ic_tab_browse))
+                .setIndicator("Przeszukaj sieï¿½", getResources().getDrawable(R.drawable.ic_tab_browse))
                 .setContent(intent);
         tabHost.addTab(spec);
 

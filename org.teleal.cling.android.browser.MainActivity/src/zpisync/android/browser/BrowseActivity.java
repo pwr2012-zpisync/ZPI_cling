@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.teleal.cling.android.browser;
+package zpisync.android.browser;
 
 import android.app.ListActivity;
 import android.content.ComponentName;
@@ -29,6 +29,7 @@ import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 import org.teleal.cling.android.AndroidUpnpService;
+import zpisync.android.browser.R;
 import org.teleal.cling.model.meta.Device;
 import org.teleal.cling.model.meta.LocalDevice;
 import org.teleal.cling.model.meta.RemoteDevice;

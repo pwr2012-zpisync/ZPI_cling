@@ -1,4 +1,4 @@
-package org.teleal.cling.android.browser;
+package zpisync.android.browser;
 
 import android.net.wifi.WifiManager;
 import org.teleal.cling.android.AndroidUpnpServiceConfiguration;

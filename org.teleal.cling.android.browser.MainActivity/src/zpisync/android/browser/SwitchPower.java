@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.teleal.cling.android.browser;
+package zpisync.android.browser;
 
 import org.teleal.cling.binding.annotations.*;
 

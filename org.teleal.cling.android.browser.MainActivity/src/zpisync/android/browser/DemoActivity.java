@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.teleal.cling.android.browser;
+package zpisync.android.browser;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -28,6 +28,7 @@ import android.os.IBinder;
 import android.widget.ImageView;
 import android.widget.Toast;
 import org.teleal.cling.android.AndroidUpnpService;
+import zpisync.android.browser.R;
 import org.teleal.cling.binding.LocalServiceBindingException;
 import org.teleal.cling.binding.annotations.AnnotationLocalServiceBinder;
 import org.teleal.cling.model.DefaultServiceManager;
